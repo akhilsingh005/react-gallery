@@ -1,0 +1,103 @@
+@import '~react-image-gallery/styles/css/image-gallery.css';
+/* .App {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+} */
+
+.image-card {
+  width: auto;
+  height: auto;
+}
+
+.gallery-outer {
+  height: 90vh;
+  width: 70%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+}
+
+.image-outer {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  width: auto;
+  border: 0px solid #ccc;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* pagination component css */
+.pagination-outer {
+  display: flex;
+  justify-content: space-between;
+  width: 69%;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.goto-page {
+  display: flex;
+}
+.goto-page > * {
+  padding: 3px;
+}
+
+.go-btn {
+  margin: 0px !important;
+  font-size: 0.5125rem !important;
+}
+
+.page-count {
+  padding-left: 3px;
+  font-weight: 600;
+}
