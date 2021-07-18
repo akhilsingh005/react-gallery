@@ -68,7 +68,7 @@ export default function Gallery() {
     });
   };
 
-  const openCarousel = (index) => {
+  const openCarousel = (index: number) => {
     setImageIndex(+index);
     handleClickOpen();
   }

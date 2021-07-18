@@ -1,5 +1,5 @@
 export default function ImageCard(props: any) {
-  const onRowClick = (event) => {
+  const onRowClick = (event: any) => {
     const imageIndex = event.target.id;
     props.openCarousel(imageIndex);
   }
